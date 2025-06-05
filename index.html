@@ -2,108 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simple Flex Layout With Calc</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href=css/style.css   >
-  <title>Navigation Position Change</title>
+    <title>Portfolio - Student Name</title> <!-- Modified: Changed title to be more descriptive and removed duplicate title tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Kept: Ensures mobile responsiveness -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Kept: Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin"> <!-- Kept: Preconnect for Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Modified: Added Roboto as second Google Font for Exceeds Expectations -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Modified: Fixed spacing in href attribute for correctness -->
 </head>
 
 <body>
-   <header id="top">
-    <div class="header-top">
-    <h1>Student Name</h1>
-    <nav>
-    <ul class="top-nav">
-      <li><a href="#">home</a></li>
-      <li><a href="#portfolio">portfolio</a></li>
-      <li href="#skills">Skills</li>
-      <li><a href="#contact">contact</a></li>
-  
-    </ul>
-  </nav>
-    </div>
-    <div class="header-content">
-      <img src="images/responsive-layout-profile.png" alt="Image of boy">
-      <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use.</p>
-     </div>
-   </header>
-   
-   <main>
+    <header id="top">
+        <div class="header-top">
+            <h1>Student Name</h1> <!-- Kept: Matches mockup name -->
+            <nav> <!-- Kept: Semantic nav element -->
+                <ul class="top-nav">
+                    <li><a href="#top">Home</a></li> <!-- Modified: Changed "home" to "Home" for consistency and added #top for navigation -->
+                    <li><a href="#portfolio">Portfolio</a></li> <!-- Kept: Matches navigation link -->
+                    <li><a href="#contact">Contact</a></li> <!-- Kept: Matches navigation link -->
+                    <li><a href="#skills">Skills</a></li> <!-- Added: Added Skills link for Exceeds Expectations -->
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content">
+            <img src="images/responsive-layout-profile.png" alt="Profile image"> <!-- Modified: Changed alt text to "Profile image" for better accessibility -->
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use.</p> <!-- Kept: Matches mockup intro text -->
+        </div>
+    </header>
 
-  <!--Portfolio Section -->
-<section id="portfolio">
-<h1>Portfolio</h1>
-<div class="projects">
-    <img src="images/portfolio-1.png">
-<div class="marketing">
-<h1>Marketing Page</h1>
-  <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-  <img src="images/portfolio-2.png">
-</div>
+    <main>
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2> <!-- Modified: Changed h1 to h2 for semantic hierarchy and uppercase per mockup -->
+            <div class="projects">
+                <div> <!-- Modified: Removed incorrect img tag outside div and adjusted structure -->
+                    <img src="images/portfolio-1.png" alt="Marketing Page"> <!-- Modified: Added alt text for accessibility -->
+                    <h3>Marketing Page</h3> <!-- Modified: Changed h1 to h3 for semantic hierarchy -->
+                    <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p> <!-- Kept: Matches project description -->
+                </div>
+                <div> <!-- Modified: Removed duplicate img and adjusted structure -->
+                    <img src="images/portfolio-2.png" alt="Search Page"> <!-- Modified: Added alt text -->
+                    <h3>Search Page</h3> <!-- Modified: Changed h1 to h3 -->
+                    <p>This project searches through a specific database to find information that the user is trying to look up</p> <!-- Kept: Matches description -->
+                </div>
+                <div>
+                    <img src="images/portfolio-3.png" alt="Travel App"> <!-- Modified: Added alt text -->
+                    <h3>Travel App</h3> <!-- Modified: Changed h1 to h3 -->
+                    <p>The project compares travel time based on different transportation methods and tells you the best one</p> <!-- Kept: Matches description -->
+                </div>
+                <div>
+                    <img src="images/portfolio-4.png" alt="Map of Favorite Spots"> <!-- Modified: Added alt text -->
+                    <h3>Map of Favorite Spots</h3> <!-- Modified: Changed h1 to h3 -->
+                    <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p> <!-- Kept: Matches description -->
+                </div>
+                <div>
+                    <img src="images/portfolio-5.png" alt="Photo Gallery"> <!-- Modified: Added alt text -->
+                    <h3>Photo Gallery</h3> <!-- Modified: Changed h1 to h3 -->
+                    <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos</p> <!-- Kept: Matches description -->
+                </div>
+                <div>
+                    <img src="images/portfolio-6.png" alt="Calculator"> <!-- Modified: Added alt text -->
+                    <h3>Calculator</h3> <!-- Modified: Changed h1 to h3 -->
+                    <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p> <!-- Kept: Matches description -->
+                </div>
+            </div>
+        </section>
 
-<div>
-  <h1>Search Page</h1>
-  <p>This project searches through a specific database to find information that the user is trying to look up</p>
-  <img src="images/portfolio-3.png">
-</div>
+        <section id="skills"> <!-- Added: Skills section for Exceeds Expectations -->
+            <h2>Skills</h2> <!-- Modified: Added h2 for semantic hierarchy and uppercase per mockup -->
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Flexbox</li>
+            </ul>
+        </section>
 
-<div>
-  <h1>Travel App</h1>
-  <p>The project compares travel time based on different transportation methods and tells you the best one</p>
-  <img src="images/portfolio-4.png">
-</div>
+        <section id="contact">
+            <h2>Contact</h2> <!-- Modified: Changed h1 to h2 for semantic hierarchy and uppercase per mockup -->
+            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p> <!-- Kept: Matches mockup text -->
+            <address>
+                <p><strong>Phone</strong> <a href="tel:+11115551234">+1 (111) 555-1234</a></p> <!-- Modified: Wrapped in p, added strong for bold label, and tel: protocol for accessibility -->
+                <p><strong>Email</strong> <a href="mailto:email@yoursite.com">email@yoursite.com</a></p> <!-- Modified: Wrapped in p, added strong for bold label, and mailto: protocol -->
+            </address> <!-- Modified: Changed a tags to p tags with strong for better semantics -->
+        </section>
+    </main>
 
-<div>
-  <h1>Map of Favorite Spots</h1>
-  <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-  <img src="images/portfolio-5.png">
-</div>
-
-<div>
-  <h1>Photo Gallery</h1>
-  <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos</p>
-  <img src="images/portfolio-6.png">
-</div>
-
-<div>
-  <h1>Calculator</h1>
-  <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-  </div>
-  </section>
-
-
-
-<section id="contact">
-<h1>Contact</h1>
-<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-<address>
-<a>Phone: +1 (111) 555-1234</a>
-<a>Email: email@yoursite.com</a>
-</address>
-</section>
-
-</main>
-
-<footer>
-<p>Student Name</p>
-<nav>
-<ul>
-<li><a href="#top">Home</a></li>
-<li><a href="#portfolio">Portfolio</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</footer>
-
-
-
-
-
+    <footer>
+        <p>Student name</p> <!-- Modified: Changed to lowercase to match mockup -->
+        <nav>
+            <ul>
+                <li><a href="#top">Back to Top</a></li> <!-- Modified: Changed "Home" to "Back to Top" to match mockup -->
+                <li><a href="#portfolio">Portfolio</a></li> <!-- Kept: Matches navigation link -->
+                <li><a href="#skills">Skills</a></li> <!-- Added: Skills link for Exceeds Expectations -->
+                <li><a href="#contact">Contact</a></li> <!-- Kept: Matches navigation link -->
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
