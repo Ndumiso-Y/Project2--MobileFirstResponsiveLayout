@@ -65,12 +65,12 @@ header h1 {
 
 .header-content img {
     max-width: 120px;
-    width: 120px; /* Added: Forces square shape */
-    height: 120px; /* Added: Matches width for square */
-    border-radius: 50%; /* Creates circular shape */
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
     margin: 0 auto 10px;
-    display: block; /* Ensures centering */
-    object-fit: cover; /* Ensures image fills the square without distortion */
+    display: block; 
+    object-fit: cover; 
 }
 
 .header-content p {
@@ -87,11 +87,11 @@ header h1 {
 
 #portfolio h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: #666;
+    color:#00000;
     margin-bottom: 15px;
 }
 
