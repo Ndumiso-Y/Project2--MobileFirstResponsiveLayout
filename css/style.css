@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -77,7 +77,7 @@ header h1 {
     max-width: 90%;
     margin: 0 auto;
     font-size: 0.9rem;
-    color: #666;
+    color: black;
 }
 
 /* Portfolio section */
@@ -129,7 +129,7 @@ header h1 {
     color: #666;
 }
 
-/* Skills section (Exceeds) */
+/* Skills section */
 #skills {
     padding: 20px 10px;
 }
@@ -226,7 +226,7 @@ footer nav ul {
 }
 
 footer a {
-    color: #666;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
