@@ -31,6 +31,7 @@ header h1 {
 
 .header-top {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
@@ -39,6 +40,7 @@ header h1 {
 
 .top-nav {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     list-style: none;
     gap: 10px;
@@ -101,13 +103,15 @@ header h1 {
     gap: 15px;
     justify-content: center;
     list-style: none;
+    padding: 0 5px;
 }
 
 .projects div {
-    flex: 1 1 100%;
-    max-width: 300px;
+    flex: 1 1 calc 100%;
+    max-width: 280px;
     text-align: center;
     padding: 10px;
+    flex-direction: column;
 }
 
 .projects img {
@@ -206,6 +210,7 @@ header h1 {
 /* Footer styling */
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -220,6 +225,7 @@ footer p {
 
 footer nav ul {
     display: flex;
+    
     justify-content: flex-end;
     list-style: none;
     gap: 10px;
@@ -238,10 +244,19 @@ footer a:hover {
     color: #007bff;
 }
 
+footer nav ul li:nth-child(n+2){
+    display: none;
+}
+
 /* Tablet styles (min-width: 768px) */
 @media (min-width: 768px) {
     header {
         padding: 20px;
+    }
+
+    .header-top {
+        flex-direction: row;
+        align-items: center;
     }
 
     header h1 {
@@ -257,7 +272,13 @@ footer a:hover {
         font-size: 1rem;
     }
 
+    footer {
+        flex-direction: row;
+    }
+
     .top-nav a, footer a {
+        flex-direction: row;
+        text-align: left;
         font-size: 0.85rem;
     }
 
