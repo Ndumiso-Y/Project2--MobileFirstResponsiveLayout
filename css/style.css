@@ -7,9 +7,9 @@
 
 /* Base styles for mobile (320px) */
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: #666;
+    color: pink;
     background-color: #fff;
     font-size: 16px;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: #333;
@@ -47,7 +47,7 @@ header h1 {
 .top-nav a {
     text-decoration: none;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -86,7 +86,7 @@ header h1 {
 }
 
 #portfolio h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
@@ -118,7 +118,7 @@ header h1 {
 }
 
 .projects h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 5px;
@@ -135,7 +135,7 @@ header h1 {
 }
 
 #skills h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -157,7 +157,7 @@ header h1 {
     color: #fff;
     padding: 5px 10px;
     border-radius: 3px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
 }
 
@@ -168,7 +168,7 @@ header h1 {
 }
 
 #contact h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -227,7 +227,7 @@ footer nav ul {
 
 footer a {
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
